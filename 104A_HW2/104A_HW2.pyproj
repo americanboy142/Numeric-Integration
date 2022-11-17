@@ -28,8 +28,11 @@
     <Compile Include="_104A_HW2.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ExtraExperiment.txt" />
+    <Content Include="IntegrandMethod_2.csv" />
     <Content Include="IntegrandMethod.csv" />
     <Content Include="interpretation.txt" />
+    <Content Include="MethodIntegrand_2.csv" />
     <Content Include="MethodIntegrand.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

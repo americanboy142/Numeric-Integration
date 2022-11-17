@@ -1,4 +1,6 @@
 It is clear from the the data that Gaussian quadurature is the best, for these tests. With n = 2 it returns a number that is very close to exact,
 where the others either require n = 512 or n = 256, to be close. this makes sence because you have to do the most work on each iteration for Gaussian,
 and the weights are fixed and know before a single iteration. Simposons rule might have the most complex formula but Gaussian requires the most work to acheive
-a workable function. From IntegrandMethod it is easy to conferm that gaussian converges the quickest as well.
+a workable function. From IntegrandMethod it is easy to conferm that gaussian converges the quickest as well. 
+The weired error at the end of gaussian, at n=128 it gets the exact number (or atleast the exact to what the computer is able to see, with default settings)
+this causes the error convergece for n>=128 to be ints rather then floats.

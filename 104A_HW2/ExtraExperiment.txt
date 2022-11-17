@@ -1,0 +1,4 @@
+ I integraded both experiments into the main HW2 file, but results go to ""_2.csv to keep assigned data.
+
+ because all but the normal distrobution have actual value of 0, there is a lot of divide by zero errors. This causes some weird errors, because log(0) is undifined
+ but for the real data we can still see that gaussian get the closest and basically exact up to e^-16.

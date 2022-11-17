@@ -30,3 +30,5 @@ Gauss_index = 6
 # true values of each function in order of functions
 
 TrueValues = [-0.098363164308346596735,0.11033333333333333333,1.7688741449316336902]
+
+TrueValues_2 = [0,0,1.7112487837842976063]
