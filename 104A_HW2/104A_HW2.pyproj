@@ -28,7 +28,6 @@
     <Compile Include="_104A_HW2.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ExtraExperiment.txt" />
     <Content Include="IntegrandMethod_2.csv" />
     <Content Include="IntegrandMethod.csv" />
     <Content Include="interpretation.txt" />
